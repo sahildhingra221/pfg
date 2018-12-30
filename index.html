@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Pluto Financial Group</title>
+  <link rel="icon" href="assets/media/icons/fav-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/countdown.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <section class="hero-section">
+    <header class="hero-header">
+      <div class="hero-header__logo">
+        <div class="hero-header__logo--img">
+          <img src="assets/media/logos/pfg-logo.png" alt="PFG">
+        </div>
+      </div>
+      <div class="hero-header__nav" id="menuMobile">
+        <ul class="hero-header__nav--bar">
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">PFG Coin</a></li>
+          <li><a href="#">Roadmap</a></li>
+          <li><a href="#">Resources <img src="assets/media/icons/arrow-down.png"></a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">EN <img src="assets/media/icons/arrow-down.png"></a></li>
+        </ul>
+      </div>
+      <div class="hero-header__menu-mobile">
+        <button onclick="showMenu()">
+          <div class="hero-header__menu-mobile--bars"></div>
+          <div class="hero-header__menu-mobile--bars"></div>
+          <div class="hero-header__menu-mobile--bars"></div>
+        </button>
+      </div>
+      <div class="hero-header__acnt">
+        <ul class="hero-header__acnt--opt">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </div>
+    </header>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("menuMobile");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <div class="hero-section__container-main">
+      <div class="hero-section__container-main--countdown">
+        <div class="countdown">
+          <p>WAIT IS OVER</p>
+          <h2>Fund is open</h2>
+          <p>Pluto Financial Group</p>
+          <p id="countdown">Timer</p>
+          <div class="countdown__opt">
+            <ul>
+              <li><a href="#">Apply to whitelist</a></li>
+              <li><a href="#">Calculate ROI</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="scroll-down-btn">
+          <div class="scroll-down-btn__icon">
+            <img src="assets/media/icons/arrow-down-slim.png" alt="#">
+          </div>
+          <div class="scroll-down-btn__txt">
+            Scroll Down
+          </div>
+        </div>
+      </div>
+      <div class="hero-section__container-main--video">
+        <div class="video-poster">
+          <img src="assets/media/images/video-poster.jpg" alt="Video Poster">
+          <div class="video-poster__btn">
+            <div class="video-poster__btn--play">
+              <img src="assets/media/icons/arrow-right-fill.png" alt="Play">
+            </div>
+            <span>Watch the video</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="roi">
+    <div class="roi-wrapper">
+      <div class="roi__container roi__calc">
+        <div class="calc">
+          <div class="calc-bg">
+
+          </div>
+          <div class="calc__dots">
+            <div class="calc__dots--circle c1"></div>
+            <div class="calc__dots--circle c2"></div>
+            <div class="calc__dots--circle c3"></div>
+          </div>
+          <div class="calc__form">
+            <form action="#" method="get">
+              <div class="coin-token">
+                <label>Coin Token</label>
+                <input autocomplete="off" type="text" name="cointoken">
+              </div>
+              <div class="calc__form--display">
+                <div class="amount"><label>Amout</label><input autocomplete="off" type="text" name="amount"></div>
+                <div class="total"><label>Total price for amount</label><input autocomplete="off" type="text" name="total"></div>
+              </div>
+              <div class="calc__form--submit">
+                <input type="submit" value="Calculate ROI">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="roi__container roi__info">
+        <div class="align">
+          <h2>Calculate <span>ROI</span></h2>
+          <p>Calculate rate of interest between profit and cost of investment and see benefits according to them.</p>
+          <ul class="roi__info--benefits">
+            <li>Lorem ipsum is cool</li>
+            <li>Lorem ipsum is cool</li>
+            <li>Lorem ipsum is cool</li>
+            <li>Lorem ipsum is cool</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="live-map">
+    <div class="map-wrapper">
+      <div class="live-map__title">
+        <h2>PFG Live User <span>Map</span></h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and
+        </p>
+        <p>
+          pesetting industry. Lorem Ipsum has been.
+        </p>
+      </div>
+      <div class="live-map__mapping">
+        <img class="live-map__mapping--map" src="assets/media/images/map.png" alt="Live Users Map">
+        <div class="location">
+          <img class="location__ultra-large l1" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultra-large l2" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__large l3" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__large l4" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__medium l5" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__normal l6" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__normal l7" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l8" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l9" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l10" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l11" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l12" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l13" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l14" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l15" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l16" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l17" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__small l18" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l19" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l20" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l21" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l22" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l23" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l24" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l25" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l26" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l27" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l28" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l29" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l30" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l31" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l32" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l33" src="assets/media/icons/ripple-over.svg" alt="+">
+          <img class="location__ultrasmall l34" src="assets/media/icons/ripple-over.svg" alt="+">
+        </div>
+      </div>
+      <div class="live-map__count">
+        <div class="live-map__count--c1">
+          <h3>140 M</h3>
+          <p>active users</p>
+        </div>
+        <div class="live-map__count--c2">
+          <h3>4 Billion</h3>
+          <p>app download</p>
+        </div>
+        <div class="live-map__count--c3">
+          <h3>&#35;08</h3>
+          <p>global rank</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mission">
+    <div class="mission__wrapper">
+      <div id="particles-js"></div>
+      <div class="mission__img">
+        <div class="mission-animation">
+          <div class="m-animation mission-animation__path">
+          </div>
+          <div class="m-animation mission-animation__obj">
+            <img src="assets/media/icons/plane-icon.png" alt="AeroPlane">
+          </div>
+          <div class="mission-animation__img">
+            <img src="assets/media/images/mission-img.jpg" alt="Our Mission">
+          </div>
+        </div>
+      </div>
+      <div class="mission__info">
+        <div class="align">
+          <h2>Our <span>Mission</span></h2>
+          <p>Compliant with all regulations; right solution in the next era of ‘financial blockchain’ domain, with its own payment transfer technologies and securitised fundraising/ trading solutions. <br>A complete banking solution
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company-section">
+    <div class="company-section__wrapper">
+      <div class="company-section__play-btn">
+        <div class="company-section__play-btn-wrapper">
+          <img src="assets/media/icons/arrow-right-fill-white.png" alt="Play">
+        </div>
+      </div>
+      <div class="company-section__about">
+        <div id="drift-js"></div>
+        <div class="company-wrapper">
+          <h3>PFG</h3>
+          <h4>Holding Company</h4>
+          <p>Compliant with all regulations; right solution in the next era of ‘financial blockchain’ domain, with its own payment transfer .</p>
+          <div class="company-wrapper__link"><a href="#">Visit Site</a></div>
+        </div>
+      </div>
+      <div class="company-section__video">
+        <img src="assets/media/images/company-video-bg.jpg" alt="Company Video">
+      </div>
+    </div>
+  </section>
+
+  <div class="bank-section__header"></div>
+
+  <section class="bank-section">
+    <div id="motion-js"></div>
+    <div class="bank-wrapper">
+      <div class="bank-section__img">
+        <div class="bank-img-wrap">
+          <img id="scroll-to" class="bank-img-wrap__img-1" src="assets/media/images/mockup-white.png" alt="Bank Image First">
+          <img id="scroll-two" class="bank-img-wrap__img-2" src="assets/media/images/mockup-white.png" alt="Bank Image Second">
+        </div>
+      </div>
+      <div class="bank-section__info">
+        <div class="bank-info">
+          <h5><img src="assets/media/icons/bank-logo.png"></h5>
+          <p>Compliant with all regulations; right solution in the next era of ‘financial blockchain’ domain, with its own payment transfer .</p>
+          <div class="bank-info__link"><a href="#">Visit Site</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bank-section__footer"></div>
+
+  <section class="pluto-go">
+    <div id="drifty-js"></div>
+    <div id="react-js"></div>
+    <div class="pluto-go-wrapper">
+      <div class="pluto-go__info">
+        <div class="pluto-go-info">
+          <h5><img src="assets/media/icons/pluto-go-icon.png"></h5>
+          <p>Compliant with all regulations; right solution in the next era of ‘financial blockchain’ domain, with its own payment transfer .</p>
+          <div class="pluto-go-info__link"><a href="#">Visit Site</a></div>
+        </div>
+      </div>
+      <div class="pluto-go__img">
+        <div class="pluto-go__img--grid">
+          <div class="img-line-1">
+            <div class="img-line-1__first-img">
+              <img src="assets/media/images/go-1.png" alt="Pluto Go Image Card">
+            </div>
+            <div class="img-line-1__mockup">
+              <img src="assets/media/images/pm-1.png" alt="Pluto Go App Mockup">
+            </div>
+            <div class="img-line-1__last-img">
+              <img src="assets/media/images/go-3.png" alt="Pluto Go Image Card Mockup">
+            </div>
+          </div>
+          <div class="img-line-2">
+            <img src="assets/media/images/go-4.png" alt="Pluto Go Image Dashboard">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pluto-exchange" id="plutoExchange">
+    <div id="swipy-js" class="particles"></div>
+    <div class="pluto-exchange__header"></div>
+    <div class="exchange-wrapper">
+      <div class="pluto-exchange__img">
+        <div class="pluto-exchange__img--path">
+        </div>
+        <div class="pluto-exchange__img--obj">
+          <img src="assets/media/logos/pe1.png" alt="PE1">
+          <img src="assets/media/logos/pe2.png" alt="PE1">
+          <img src="assets/media/logos/pe3.png" alt="PE1">
+          <img src="assets/media/logos/pe4.png" alt="PE1">
+          <img src="assets/media/logos/pe5.png" alt="PE1">
+        </div>
+        <div class="pluto-exchange__img--center">
+          <img src="assets/media/images/pluto-exchange.png" alt="Our Mission">
+        </div>
+      </div>
+      <div class="pluto-exchange__info">
+        <img src="assets/media/icons/pluto-exchange.png" alt="Pluto Exchange">
+        <p>
+          Compliant with all regulations; right solution in the next era of ‘financial blockchain’ domain, with its own payment transfer .
+        </p>
+        <div class="pluto-exchange__info--link">
+          <a href="#plutoExchange">Visit Site</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pluto-exchange__footer"></div>
+
+  <section class="pluto-fund" id="plutoFund">
+    <div id="drifti-js" class="particles"></div>
+    <div class="pe-wrapper">
+      <div class="pluto-fund__info">
+        <img src="assets/media/icons/pluto-fund.png" alt="Pluto Fund">
+        <p>
+          Compliant with all regulations; right solution in the.
+        </p>
+        <div class="pluto-fund__info--link">
+          <a href="#plutoFund">Visit Site</a>
+        </div>
+        <div class="pluto-fund__info--img">
+          <img src="assets/media/images/pf-man.png" alt="Funds">
+        </div>
+      </div>
+      <div class="pluto-fund__animation">
+        <div class="pluto-fund__animation--wrap">
+          <img src="assets/media/images/pf-12.png" alt="Funds App">
+          <div class="pluto-fund__slider pluto-fund__slider--first">
+
+          </div>
+          <div class="pluto-fund__slider pluto-fund__slider--second">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="pluto-fund__footer"></div>
+
+  <section class="story" id="roadmap">
+    <div id="swipi-js" class="particles"></div>
+    <h1>Our <span>Story</span></h1>
+    <div class="story-wrapper">
+      <div class="story__path">
+        <div class="story__path--title">
+          <a href="#roadmap" class="story-title">Roadmap</a>
+        </div>
+        <div class="story-path">
+          <div class="story-roadmap">
+            <div class="story__roadmap story-1">
+              <h2>2014</h2>
+            </div>
+            <div class="story__roadmap story-2">
+              <h2>2015</h2>
+            </div>
+            <div class="story__roadmap story-3">
+              <h2>2016</h2>
+            </div>
+            <div class="story__roadmap story-4">
+              <h2>2017</h2>
+            </div>
+            <div class="story__roadmap story-5">
+              <h2>2018</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="hero-footer">
+    <div class="footer-wrapper">
+      <div class="hero-footer__info">
+        <div class="hero-footer__info--name">
+          <img src="assets/media/logos/pfg-logo.png" alt="PFG">
+          <h6>Pluto Financial Group</h6>
+        </div>
+        <div class="hero-footer__info--brief">
+          <p>
+            Learn more about our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy.</a>
+          </p>
+          <h1>DISCLAIMER</h1>
+          <p>
+            NO CONTENT OF THIS WEBSITE, NOR ANY LINK OR DOCUMENT ON THIS WEBSITE ARE A PUBLIC OFFER OF A SECURITY OR ANY OTHER FINANCIAL INSTRUMENT IN RELATION WITH ANY COMPANY INCLUDING THE NAGA DEVELOPMENT ASSOCIATION LTD. OR IT’S PARTNER THE NAGA GROUP AG OR ANY OF IT’S ASSOCIATED COMPANIES INCLUDING (WITHOUT EXCLUDING ANY OTHER) THE SWITEX GMBH OR THE SWIPESTOX GMBH
+          </p>
+        </div>
+      </div>
+      <div class="hero-footer__address">
+        <p>
+          International House, 24 Holborn<br> Viaduct, CITY OF LONDON, <br> London EC1A 2BN<br>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script type="text/javascript">
+    $(window).scroll(function() {
+      var hT = $('#scroll-to').offset().top - 300,
+        hH = $('#scroll-to').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+      console.log((hT - wH), wS);
+      if (wS > (hT + hH - wH)) {
+        $('#scroll-to').css("margin-left", "0");
+      }
+    });
+
+    $(window).scroll(function() {
+      var hT = $('#scroll-two').offset().top - 300,
+        hH = $('#scroll-two').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+      console.log((hT - wH), wS);
+      if (wS > (hT + hH - wH)) {
+        $('#scroll-two').css("margin-left", "40px");
+      }
+    });
+  </script>
+</body>
+
+</html>
