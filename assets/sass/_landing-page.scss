@@ -197,7 +197,7 @@
 
 // Hero Section
 .hero-section {
-  background-image: url(/assets/media/images/wave-bg.png);
+  background-image: url(../media/images/wave-bg.png);
   background-position: -100px 250px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -240,7 +240,7 @@
         width: 100%;
         position: relative;
         height: 450px;
-        background-image: url(/assets/media/images/video-poster-full.png);
+        background-image: url(../media/images/video-poster-full.png);
         background-size: cover;
         background-position: center;
         @media screen and (max-width: 365px) {
@@ -755,7 +755,7 @@
       left: 0;
       img {
         position: absolute;
-        background-image: url(/assets/media/images/round-mid-1.png);
+        background-image: url(../media/images/round-mid-1.png);
         background-position: center;
         background-repeat: no-repeat;
       }
@@ -989,7 +989,7 @@
     overflow: hidden;
     position: absolute;
     top: 0;
-    background-image: url(/assets/media/icons/cloud-icon.svg);
+    background-image: url(../media/icons/cloud-icon.svg);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: 220px 200px; animation: cloud-slider 60s infinite;
@@ -1019,7 +1019,7 @@
     }
   }
   &__info {
-    background-image: url(/assets/media/icons/shape-unaligned.svg);
+    background-image: url(../media/icons/shape-unaligned.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
     padding: 190px 0 0 0;
@@ -1223,7 +1223,7 @@
     z-index: -2;
     @media screen and (max-width: 1080px) {
       height: 450px;
-      background-image: url(/assets/media/images/company-video-bg.jpg);
+      background-image: url(../media/images/company-video-bg.jpg);
       background-position: center;
       background-size: cover;
     }
@@ -1340,7 +1340,7 @@
   background: $primary-green;
   height: 1143.07px;
   width: 100%;
-  background-image: url(/assets/media/icons/shape-unaligned-2.svg);
+  background-image: url(../media/icons/shape-unaligned-2.svg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 673px;
@@ -1442,14 +1442,14 @@
     margin-left: -100%;
     height: 90%;
     bottom: 0;
-    background-image: url(/assets/media/images/g2-1.png);
+    background-image: url(../media/images/g2-1.png);
     z-index: 1;
   }
   &__img-2 {
     margin-left: -100%;
     bottom: 0;
     height: 80%;
-    background-image: url(/assets/media/images/g2-2.png);
+    background-image: url(../media/images/g2-2.png);
     @media screen and (max-width: 425px) {
       margin-left: 0 !important;
       margin-top: 50px;
@@ -1676,7 +1676,7 @@
     }
     img {
       width: 100%;
-      background-image: url(/assets/media/images/g3.png);
+      background-image: url(../media/images/g3.png);
       background-repeat: no-repeat;
       background-position: left;
       overflow: hidden;
@@ -1727,7 +1727,7 @@
 
 // Pluto Exchange Section
 .pluto-exchange {
-  background-image: url(/assets/media/images/pe-bg.svg);
+  background-image: url(../media/images/pe-bg.svg);
   padding: 150px 0 210px;
   background-position: center;
   background-size: cover;
@@ -1754,7 +1754,7 @@
     position: absolute;
     top: -36px;
     width: 100%;
-    background-image: url(/assets/media/images/pe-bg.svg);
+    background-image: url(../media/images/pe-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1764,7 +1764,7 @@
     //width: 110%;
     //margin-left: -5%;
     margin-top: -30px;
-    background-image: url(/assets/media/images/pe-bg.svg);
+    background-image: url(../media/images/pe-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     @media screen and (max-width: 2120px) {
@@ -2019,7 +2019,7 @@
 
 // Pluto Fund
 .pluto-fund {
-  background-image: url(/assets/media/images/pf-bg.svg);
+  background-image: url(../media/images/pf-bg.svg);
   background-position: 1000px -820px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2137,7 +2137,7 @@
         position: relative;
       }
       img {
-        background-image: url(/assets/media/images/g32.png);
+        background-image: url(../media/images/g32.png);
         background-repeat: no-repeat;
         overflow: hidden; animation: image-swipe 3s infinite;
         @media screen and (max-width: 425px) {
@@ -2181,11 +2181,11 @@
     }
     &--first {
       top: 31%;
-      background-image: url(/assets/media/images/pf-slider-1.png);
+      background-image: url(../media/images/pf-slider-1.png);
     }
     &--second {
       bottom: 33%;
-      background-image: url(/assets/media/images/pf-slider-2.png);
+      background-image: url(../media/images/pf-slider-2.png);
     }
     @keyframes icon-slider {
       0% {
@@ -2513,7 +2513,7 @@
     height: 338px;
     .story-path {
       height: 338px;
-      background-image: url(/assets/media/images/wire-sprite.png);
+      background-image: url(../media/images/wire-sprite.png);
       width: 100%; animation: sprite-wire 10s infinite;
       @media screen and (max-width: 1080px) {
         background: none;
